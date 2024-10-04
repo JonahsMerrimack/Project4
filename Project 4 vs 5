@@ -1,0 +1,3 @@
+# Project 4 Overview
+
+Project 4 is the original implementation that reads a list of integers from user input, stores them in a **LinkedList**, and sorts them using the **Collections.sort** method. It demonstrates the usage of the Java Collections Framework, focusing on linked list operations and sorting functionality. This version was the starting point for further modifications, including adapting the logic to work with other data structures like **Stack** in subsequent iterations.
