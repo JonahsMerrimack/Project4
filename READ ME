@@ -1,0 +1,75 @@
+# SortedLinkedList Program
+
+## Overview
+
+The **SortedLinkedList** program is a Java application that reads a list of integers from user input, stores them in a `LinkedList`, sorts the integers in ascending order, and displays the sorted list. The program utilizes Java's **Collections Framework** for sorting and LinkedList operations.
+
+This project was originally designed to demonstrate the use of a `LinkedList` to store and manipulate integer values while following Java code reuse principles and leveraging the functionality provided by Java's standard libraries.
+
+## Features
+
+- Accepts integer input from the command line.
+- Stores input in a `LinkedList` data structure.
+- Sorts the `LinkedList` in ascending order using the `Collections.sort()` method.
+- Outputs the sorted list of integers.
+- Handles non-integer inputs gracefully by prompting the user to try again.
+
+## Requirements
+
+- **Java Development Kit (JDK)** installed (version 8 or higher).
+- This program can be run via the command line or a terminal.
+
+## How to Run
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/SortedLinkedList.git
+   ```
+
+2. **Navigate to the project directory:**
+   ```bash
+   cd SortedLinkedList
+   ```
+
+3. **Compile the Java file:**
+   ```bash
+   javac SortedLinkedList.java
+   ```
+
+4. **Run the program:**
+   ```bash
+   java SortedLinkedList
+   ```
+
+5. **Enter integers:**
+   - Type integers followed by the Enter key.
+   - When done, type `exit` to finish input.
+
+6. **Example:**
+   ```
+   Enter integers (type 'exit' to finish):
+   7
+   2
+   15
+   exit
+   Sorted list: [2, 7, 15]
+   ```
+
+## Code Documentation
+
+You can generate the Javadoc for this project using the following command:
+
+```bash
+javadoc -d doc SortedLinkedList.java
+```
+
+This will create a `doc` folder containing the HTML documentation for the project.
+
+## Author
+
+**Jonah Wilson**  
+*Since*: 2024-09-23
+
+---
+
+This README file provides essential information for setting up, running, and understanding the **SortedLinkedList** project.
